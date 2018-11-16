@@ -2,7 +2,7 @@
 
 def countdown
   puts = "Enter a single number!"
-  number = gets
+  number = gets.chomp
   while number > 0
   puts "#{number} SECOND(S)!"
 end
