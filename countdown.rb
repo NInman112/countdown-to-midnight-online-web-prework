@@ -1,6 +1,6 @@
 #write your code here
 def countdown
-  number = 0
+  number = 12
   while number > 0
   puts "#{number} SECOND(S)!"
   sleep 0.5
