@@ -2,9 +2,9 @@
 
 def countdown
 
-  number = 12
-  while number > 0
-  puts "#{number} SECOND(S)!"
+  n = 12
+  while n > 0
+  puts "#{n} SECOND(S)!"
   sleep 1
   number -= 1
 end
